@@ -1,9 +1,16 @@
 library(dplyr)
 
+# Downlooad the raw data
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl, destfile = "rawDataset.zip")
+
+#unzip the raw data folder
+unzip("rawDataset.zip")
+
 ### Load feature names
 feature_names = read.table("UCI HAR Dataset/features.txt")
 
-### Load label names
+### Load activity label names
 activity_names = read.table("UCI HAR Dataset/activity_labels.txt")
 colnames(activity_names) = c("labels","activity")
 
