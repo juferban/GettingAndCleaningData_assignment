@@ -1,0 +1,19 @@
+#### Code book describing the variables in the tidy_data.txt file:
+
+-subject: identifier of each of the persons included in the study
+
+-activity: Type of phisical activity measured
+
+-signal_origin: Sensor measuring Body movement (linear) or changes due to gravity (angular).
+
+-sensor: Type of sensor used to measure the activity (acceleroments or gyroscope)
+
+-signal_domain: Time or frequency (Fast fourier transform)
+
+-signal_subtype: indicates is a Jerk signal transform was used for the value
+
+-axis: Axis movement that is being meaures or total magnitude of the movement
+
+-AverageOfMeans: Average of the mean signal measured for a subject and activity when grouping by all measured variables. 
+
+-AverageOfStd: Average of the standard deviation of the signal measured for a subject and activity when grouping by all measured variables.
