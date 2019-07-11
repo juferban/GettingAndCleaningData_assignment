@@ -1,6 +1,6 @@
-#Code and results file from the final assignment on the Getting and Cleaning Data course
+# Code and results file from the final assignment on the Getting and Cleaning Data course
 
-##Steps to generate the final tidy_data.txt:
+## Steps to generate the final tidy_data.txt:
 
 1- Download the files containing the raw data from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
